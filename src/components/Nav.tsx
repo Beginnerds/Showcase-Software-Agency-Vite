@@ -56,7 +56,7 @@ const Nav = () => {
       >
         <div className="grid place-content-center -ml-5 md:ml-[-20px]">
           <img
-            src={`/assets/logo.png`}
+            src={`/images/logo.png`}
             alt="logo"
             width={180}
             height={80}
@@ -161,7 +161,7 @@ const Nav = () => {
       >
         <div className="w-[150px] h-[40px] -ml-4">
           <img
-            src={`/assets/logo.png`}
+            src={`/images/logo.png`}
             alt="logo"
             className="h-full w-full object-cover "
           />

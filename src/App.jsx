@@ -19,19 +19,19 @@ const COMPANYNAMES = [
 
 const PROJECTSDATA = [
   {
-    img: "/assets/project_1.webp",
+    img: "/images/project_1.webp",
     desc: "Data analaysis and warehousing solution for your business nedds.",
   },
   {
-    img: "/assets/project_2.webp",
+    img: "/images/project_2.webp",
     desc: "AI powered chatbot customized as per user requirements to meet all and every industry needs.",
   },
   {
-    img: "/assets/project_3.webp",
+    img: "/images/project_3.webp",
     desc: "Ecommerce android/ios app for your business with analytics and monetization reports.",
   },
   {
-    img: "/assets/project_4.webp",
+    img: "/images/project_4.webp",
     desc: "Custom dashboard to modify and monitor SEO reports for websites.",
   },
 ];
@@ -39,50 +39,50 @@ const PROJECTSDATA = [
 const KNOWUSBETTERDATA = [
   {
     title: "75+ Clients",
-    img: "/assets/clients.webp",
+    img: "/images/clients.webp",
   },
   {
     title: "100+ Projects",
-    img: "/assets/projects.webp",
+    img: "/images/projects.webp",
   },
   {
     title: "10+ Years",
-    img: "/assets/years.webp",
+    img: "/images/years.webp",
   },
   {
     title: "200+ Employees",
-    img: "/assets/employees.webp",
+    img: "/images/employees.webp",
   },
   {
     title: "10+ Locations",
-    img: "/assets/locations.webp",
+    img: "/images/locations.webp",
   },
 ];
 
 const INDUSTRIESDATA = [
   {
     title: "Healthcare",
-    icon: "/assets/healthcare_icon.svg",
+    icon: "/images/healthcare_icon.svg",
   },
   {
     title: "Logistics",
-    icon: "/assets/logistics_icon.svg",
+    icon: "/images/logistics_icon.svg",
   },
   {
     title: "Finance",
-    icon: "/assets/finance_icon.svg",
+    icon: "/images/finance_icon.svg",
   },
   {
     title: "Technology",
-    icon: "/assets/technology_icon.svg",
+    icon: "/images/technology_icon.svg",
   },
   {
     title: "IOT",
-    icon: "/assets/iot_icon.svg",
+    icon: "/images/iot_icon.svg",
   },
   {
     title: "Ecommerce",
-    icon: "/assets/ecommerce_icon.svg",
+    icon: "/images/ecommerce_icon.svg",
   },
 ];
 
@@ -148,7 +148,7 @@ export const App = () => {
         <Nav />
         <section className="relative">
           <img
-            src={`/assets/hero-1.jpg`}
+            src={`/images/hero-1.jpg`}
             alt="hero-img"
             className="w-screen h-screen object-cover bg-fixed"
           />
@@ -186,7 +186,7 @@ export const App = () => {
                 className={`flex flex-col justify-start items-center`}
               >
                 <img
-                  src={`/assets/company-logo-${index + 1}.svg`}
+                  src={`/images/company-logo-${index + 1}.svg`}
                   alt="client-logo"
                   height={40}
                   width={80}
@@ -422,7 +422,7 @@ export const App = () => {
             ref={pushItemsRefToAnimate}
           >
             <img
-              src="/assets/careers_1.webp"
+              src="/images/careers_1.webp"
               className="w-full h-full object-cover rounded-md "
               alt=""
             />
@@ -432,7 +432,7 @@ export const App = () => {
             ref={pushItemsRefToAnimate}
           >
             <img
-              src="/assets/careers_3.webp"
+              src="/images/careers_3.webp"
               className="w-full h-full object-cover rounded-md"
               alt=""
             />
@@ -442,14 +442,14 @@ export const App = () => {
             ref={pushItemsRefToAnimate}
           >
             <img
-              src="/assets/careers_2.webp"
+              src="/images/careers_2.webp"
               className=" w-full h-full object-cover rounded-md"
               alt=""
             />
           </div>
           <div className="__CENTER__IMAGE__ absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-3/4 h-4/5 sm:h-1/2 rounded-md flex gap-8 py-10 px-6 bg-gray-400/20 shadow-md backdrop-blur-md ">
             <img
-              src="/assets/careers_4.webp"
+              src="/images/careers_4.webp"
               className="hidden sm:block w-2/5 h-full object-cover rounded-md transition-all opacity-0 delay-300 duration-1000 -translate-x-10"
               alt=""
               ref={pushItemsRefToAnimate}
@@ -567,28 +567,28 @@ export const App = () => {
           <div className="col-span-full sm:col-span-1 justify-self-center  sm:self-end flex gap-6">
             <a href="#">
               <img
-                src="/assets/facebook_icon.svg"
+                src="/images/facebook_icon.svg"
                 alt="fb"
                 className="size-6 object-cover"
               />
             </a>
             <a href="#">
               <img
-                src="/assets/instagram_icon.svg"
+                src="/images/instagram_icon.svg"
                 alt="fb"
                 className="size-6 object-cover"
               />
             </a>
             <a href="#">
               <img
-                src="/assets/linkedin_icon.svg"
+                src="/images/linkedin_icon.svg"
                 alt="fb"
                 className="size-6 object-cover"
               />
             </a>
             <a href="#">
               <img
-                src="/assets/glassdoor_icon.svg"
+                src="/images/glassdoor_icon.svg"
                 alt="fb"
                 className="size-6 object-cover"
               />
@@ -596,7 +596,7 @@ export const App = () => {
           </div>
         </div>
         <p className="mt-10 text-xs text-center text-custom1/20">
-          This site is for demonstration purposes only, all the assets have been
+          This site is for demonstration purposes only, all the images have been
           take from the web with open source licenses, any request to remove an
           asset will be honored.
         </p>

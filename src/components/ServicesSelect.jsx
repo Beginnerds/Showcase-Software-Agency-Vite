@@ -9,11 +9,11 @@ const tabList = [
 ];
 
 const servicesDetailsIcons = [
-  "/assets/code_icon.svg",
-  "/assets/mobile_icon.svg",
-  "/assets/ui_icon.svg",
-  "/assets/product_icon.svg",
-  "/assets/data_icon.svg",
+  "/images/code_icon.svg",
+  "/images/mobile_icon.svg",
+  "/images/ui_icon.svg",
+  "/images/product_icon.svg",
+  "/images/data_icon.svg",
 ];
 
 const servicesDetailsListIcons = [
