@@ -527,35 +527,37 @@ export const App = () => {
             <p className="text-custom1/35">Services</p>
             <ul>
               <li className="mt-3 hover:text-custom1 transition-all">
-                <a href="#">Fullstack Development.</a>
+                <a href="#services">Fullstack Development.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">Mobile App Development.</a>
+                <a href="#services">Mobile App Development.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">UI/UX Design.</a>
+                <a href="#services">UI/UX Design.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">Product Maintenance And Support.</a>
+                <a href="#services">Product Maintenance And Support.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">Data Analytics And Business Intelligence.</a>
+                <a href="#services">
+                  Data Analytics And Business Intelligence.
+                </a>
               </li>
             </ul>
           </div>
           <div className="col-span-2 sm:col-span-1">
             <ul>
               <li className="mt-[32px] hover:text-custom1 transition-all">
-                <a href="#">Current Stories.</a>
+                <a href="#currentstories">Current Stories.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">Careers.</a>
+                <a href="#careers">Careers.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">About Us.</a>
+                <a href="#about">About Us.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
-                <a href="#">Contact.</a>
+                <a href="#contact">Contact.</a>
               </li>
               <li className="mt-2 hover:text-custom1 transition-all">
                 <a href="#">Privacy Policy.</a>
@@ -584,7 +586,7 @@ export const App = () => {
                 className="size-6 object-cover"
               />
             </a>
-            <a>
+            <a href="#">
               <img
                 src="/assets/glassdoor_icon.svg"
                 alt="fb"
