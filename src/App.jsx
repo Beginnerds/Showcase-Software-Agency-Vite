@@ -148,7 +148,7 @@ export const App = () => {
         <Nav />
         <section className="relative">
           <img
-            src={`/hero-1.jpg`}
+            src={`/images/hero-1.jpg`}
             alt="hero-img"
             className="w-screen h-screen object-cover bg-fixed"
           />
